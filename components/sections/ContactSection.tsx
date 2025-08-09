@@ -11,19 +11,19 @@ const contactInfo = [
   {
     icon: Mail,
     label: 'Email',
-    value: 'ahtisham.ali@email.com',
-    href: 'mailto:ahtisham.ali@email.com'
+    value: 'ahtishamali633@gmail.com',
+    href: 'mailto:ahtishamali633@gmail.com'
   },
   {
     icon: Phone,
     label: 'Phone',
-    value: '+1 (555) 123-4567',
-    href: 'tel:+15551234567'
+    value: '+923150048793',
+    href: 'tel:+923150048793'
   },
   {
     icon: MapPin,
     label: 'Location',
-    value: 'San Francisco, CA',
+    value: 'Lahore, Punjab, Pakistan',
     href: null
   }
 ]
