@@ -4,12 +4,15 @@
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Framer Motion](https://img.shields.io/badge/Framer_Motion-black?style=for-the-badge&logo=framer&logoColor=blue)](https://www.framer.com/motion/)
+[![Deploy](https://github.com/yourusername/repository-name/actions/workflows/deploy.yml/badge.svg)](https://github.com/yourusername/repository-name/actions/workflows/deploy.yml)
 
 > A modern, responsive portfolio website showcasing my expertise as a Senior Full Stack Developer with 5+ years of experience in building scalable web applications.
 
 ## 🌟 Live Demo
 
-**[View Portfolio →](https://ahtisham-ali-portfolio.vercel.app)**
+**[View Portfolio →](https://yourusername.github.io/repository-name)**
+
+> 🚀 **Auto-deployed via GitHub Actions** - Every push to main branch triggers automatic deployment to GitHub Pages
 
 ## 📋 Table of Contents
 
@@ -18,6 +21,7 @@
 - [Tech Stack](#tech-stack)
 - [Project Structure](#project-structure)
 - [Getting Started](#getting-started)
+- [Deployment](#deployment)
 - [Skills Showcase](#skills-showcase)
 - [Projects](#projects)
 - [Performance](#performance)
@@ -142,6 +146,34 @@ ahtisham-portfolio/
 npm run build
 npm start
 ```
+
+## 🚀 Deployment
+
+This portfolio is configured for automatic deployment to **GitHub Pages** using GitHub Actions.
+
+### Quick Setup
+
+1. **Fork/Clone this repository**
+2. **Enable GitHub Pages**:
+   - Go to repository Settings → Pages
+   - Source: "GitHub Actions"
+3. **Configure base path** (if needed):
+   - Edit `next.config.js`
+   - Uncomment and set `basePath: '/your-repo-name'`
+4. **Push to main branch** - Deployment happens automatically!
+
+### Deployment Features
+- ✅ **Automatic builds** on every push to main
+- ✅ **Static site generation** for optimal performance
+- ✅ **GitHub Actions workflow** with caching
+- ✅ **Zero-config deployment** to GitHub Pages
+
+### Custom Domain (Optional)
+1. Add `CNAME` file to `/public` directory
+2. Configure custom domain in repository settings
+3. Update DNS records with your domain provider
+
+📖 **Detailed instructions**: See [DEPLOYMENT.md](./DEPLOYMENT.md)
 
 ## 💼 Skills Showcase
 
